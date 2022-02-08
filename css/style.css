@@ -1,0 +1,30 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#app {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+    width: 100%;
+    padding: 5px;
+}
+
+#app .hero-content {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    width: calc(33.33% - 10px);
+}
+
+#app .hero-content img {
+    border-radius: 5px;
+}
+
+#app .hero-content p {
+    padding: 10px;
+    width: calc(100% - 20px);
+}
